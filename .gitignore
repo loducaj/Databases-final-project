@@ -1,0 +1,16 @@
+# Real credentials: never commit
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Front end (later)
+node_modules/
+dist/
+
+# OS and editor files
+Thumbs.db
+.DS_Store
+.vscode/
