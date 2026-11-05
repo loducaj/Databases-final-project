@@ -1,0 +1,11 @@
+Output of: .venv\Scripts\python backend\check_connection.py (run 2026-11-05 09:22)
+
+Connected as jobtrail_app@localhost to database 'jobtrail' (MySQL 8.0.46)
+Privileges:
+  GRANT USAGE ON *.* TO `jobtrail_app`@`localhost`
+  GRANT SELECT, INSERT, UPDATE, DELETE ON `jobtrail`.* TO `jobtrail_app`@`localhost`
+Rows per table:
+  app_user: 2
+  company: 5
+  job_posting: 10
+  application: 12
